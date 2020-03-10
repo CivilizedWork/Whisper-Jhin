@@ -5,7 +5,7 @@ def check_fermat(a,b,c,n):
         print('No,that doesn\'t work')
 
 def caution_input():
-    a=input('请输入a的值：')
+    a=input('请输入a的值')
     b=input('请输入b的值')
     c=input('请输入c的值')
     n=input('请输入n的值')
