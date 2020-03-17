@@ -1,11 +1,3 @@
-def make_dict():
-    fin = open('words.txt')
-    s = dict()
-    for letter in fin:
-        word = letter.strip()
-        s[word] = None
-    return s
-
 from pronounce import read_dictionary
 fin = open('words.txt')
 for line in fin:
