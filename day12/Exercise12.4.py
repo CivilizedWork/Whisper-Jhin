@@ -108,6 +108,6 @@ def print_longest_words(word_dict):
         print('\n')
 
 
-if __name__ == '__main__' :
+if __name__ == '__main__':
     word_dict = make_word_dict()
     print_longest_words(word_dict)
