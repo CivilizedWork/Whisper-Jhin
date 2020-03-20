@@ -14,6 +14,7 @@ def cumsum(t):
     return s
 
 fin = open('emma.txt')
+import math
 def tye(h):
     t = []
     b = []
@@ -22,10 +23,10 @@ def tye(h):
         b.append(h[key])
     s = cumsum(b)
     n = b[len(b)-1]
-    for r in  len(s):
+    for r in  range(len(s)):
         m = s[r+1]/n
         t.reverse()
         print(t)
-        print(m,r)
+        print(math.log(m),math.log(r))
 
 tye(histogram(fin))
